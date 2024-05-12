@@ -26,10 +26,371 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 ## PROGRAM :
+### WEB.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - PharmaPlus</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">PharmaPlus</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="web.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Welcome to PharmaPlus</h1>
+        <p>Welcome to PharmaPlus,our mission is to provide safe, effective, and accessible healthcare solutions to patients worldwide.</p>
+        <p>At PharmaPlus, With a relentless focus on innovation and quality, we are at the forefront of cutting-edge medical advancements, ensuring that every product we create is a testament to our unwavering commitment to excellence.</p>
+        <p>In addition to medications,PharmaPLus are pivotal in creating and distributing drugs, vaccines, and medical devices to enhance human health. </p>
+        <p>Thank you for choosing PharmaPlus for your healthcare needs. We look forward to serving you and helping you live a healthier life.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="phar.jpg" class="img-fluid" alt="Pharmacy Image">
+      </div>
+    </div>
+  </div>
+  <body background="pharbg.jpg" style="background-repeat: no-repeat; background-size: cover;">
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2024 PharmaPlus. All rights reserved. PRASANNA I(212223220079)</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+### ABOUT.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About PharmaPlus</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">PharmaCompany</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="web.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>About PharmaPlus</h1>
+        <div id="vision">
+          <h2>Vision</h2>
+          <p>Our vision is to be a leading pharmaceutical company in India and to become a significant global player by providing high quality, affordable and innovative solutions in medicine and treatment.</p>
+        </div>
+        <div id="mission">
+          <h2>Mission</h2>
+          <p>Our mission is to We will discover, develop and successfully market pharmaceutical products to prevent, diagnose, alleviate and cure diseases.</p>
+        </div>
+        <div id="values">
+          <h2>Values</h2>
+          <ul>
+            <li>Quality:From the very beginning, Quality has been the core of our existence. Unimarckens are persistently putting efforts in manufacturing high-quality products for society.</li>
+            
+            <li>Commitment to Excellence:We believe commitment drives the force for achieving excellence for products to stand at par in the pharmaceutical industry. We pursue </li>
+            <li>Customer-oriented: Being a customer-oriented PharmaPLus, the prospect is to digitalize the business by serving quality pharma products online.</li>
+            <li>Teamwork: “Teamwork makes the dream work.”</li>
+          </ul>
+        </div>
+        <br>
+        <!-- Add more subheadings as needed -->
+      </div>
+    </div>
+  </div>
+  <body background="pharbg.jpg" style="background-repeat: no-repeat; background-size: cover;"></body>
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-3">
+    <p>&copy; 2024 PharmaPlus. All rights reserved.  BY PRASANNA I (212223220079)</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+### CONTACT.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - PharmaCompany</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">PharmaCompany</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="web.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Products</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h5>Contact Us</h5>
+        <p>For any inquiries or feedback, please fill out the form below and we will get back to you as soon as possible.</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows=3" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <h2>PharmaPlus</h2>
+        <address>
+          <strong>Address:</strong><br>
+          1ST FLOOR, ANNA GARDENS, MOUNT POONAMALLEE RD,CHENNAI<br>
+          TAMILNADU, 600089<br><br>
+          <strong>Email:</strong><br>
+          prasanna9887prasanna@gmail.com<br><br>
+          <strong>Phone:</strong><br>
+          +91 8778719448
+        </address>
+      </div>
+    </div>
+  </div>
+ 
+  <body background="pharbg.jpg" style="background-repeat: no-repeat; background-size: cover;">
+
+    <br>
+    <br>
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-2 ">
+    <p>&copy; 2024 PharmaPlus. All rights reserved. BY PRASANNA (212223220079)</p>
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+### PRODUCT.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - PharmaPlus</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">PharmaPlus</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="web.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Over-the-counter (OTC) Medications</a>
+            <a class="dropdown-item" href="#">Prescription Drugs</a>
+            <a class="dropdown-item" href="#">Vaccines</a>
+            <a class="dropdown-item" href="#">Supplements</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-md-12">
+        <h5>Our Product Categories</h5>
+        <div class="card-deck">
+          <div class="card">
+            <img src="otc.jpeg" class="card-img-top" alt="Product 1" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Over-the-counter (OTC)</h5>
+              <p class="card-text">These drugs you can buy without a prescription. Some OTC medicines relieve aches, pains, and itches.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prdrugs.jpeg" class="card-img-top" alt="Product 2" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title"> Prescription Drug</h5>
+              <p class="card-text">A pharmaceutical drug that is permitted to be dispensed only to those with a medical prescription.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="vaccine.jpg" class="card-img-top" alt="Product 2" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Vaccine</h5>
+              <p class="card-text">A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="supplements.jpg" class="card-img-top" alt="Product 3" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Supplements</h5>
+              <p class="card-text">These include vitamins, minerals, herbs and botanicals, probiotics, and more.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2024 PharmaPlus. All rights reserved. PRASANNA I (212223220079)</p>
+  </footer>
+  <body background="pharbg.jpg" style="background-repeat: no-repeat; background-size: cover;">
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
 
 ## OUTPUT:
-
-
+![alt text](<Screenshot 2024-05-12 160939.png>)
+![alt text](<Screenshot 2024-05-12 160957.png>)
+![alt text](<Screenshot 2024-05-12 161011.png>)
+![alt text](<Screenshot 2024-05-12 161121.png>)
 ## RESULT:
 The program for responsive web design using Bootstrap is completed successfully.
